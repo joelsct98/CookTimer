@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CookTimer</string>
+    <string name="title_activity_camarero">camarero</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+
+    <string name="TextView">selecciona un nombre</string>
+
+    <string-array name="Dias">
+        <item>perre</item>
+        <item>perrilla</item>
+        <item>perrilla</item>
+
+    </string-array>
+
+
+
+</resources>

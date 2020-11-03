@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.proyecto_final_1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".cocina"></activity>
+        <activity android:name=".Administrador.eliminar_producto" />
+        <activity android:name=".Administrador.modificar_producto" />
+        <activity android:name=".Administrador.registrar_producto" />
+        <activity
+            android:name=".Administrador.productos"
+            android:label="PRODUCTOS"
+            android:parentActivityName=".Administrador.registros"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".PlatosActivity" />
+        <activity android:name=".Administrador.eliminar_administrador" />
+        <activity android:name=".Administrador.modificar_administrador" />
+        <activity android:name=".Administrador.registrar_administrador" />
+        <activity android:name=".Administrador.eliminar_empleado" />
+        <activity android:name=".Administrador.modificar_empleado" />
+        <activity android:name=".Administrador.registrar_empleados" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@menu/menu" />
+
+        <activity
+            android:name=".MENU.TodosMenus2"
+            android:label="MENU"
+            android:parentActivityName=".MENU.TodosMenus2"
+            android:textSize="15px"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Administrador.administradores"
+            android:label="ADMINISTRADORES"
+            android:parentActivityName=".Administrador.registros"
+            android:textSize="15px"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Administrador.usuarios"
+            android:label="USUARIOS"
+            android:parentActivityName=".Administrador.registros"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Administrador.registros"
+            android:label="REGISTROS"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
